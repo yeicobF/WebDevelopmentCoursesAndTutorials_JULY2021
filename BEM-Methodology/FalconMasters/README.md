@@ -4,7 +4,7 @@ En esta carpeta se encontrará el tutorial que seguí de un video en donde
 explican lo que es la metodología BEM.
 
 > FUENTE:
-> [Canal de YouTube: "FalconMasters"; Video: "Que rayos es la Metodología BEM explicado con un ejemplo | CSS" - Duración: 35:15](https://youtu.be/bvnzyXGkNY4)
+> [Canal de YouTube: "FalconMasters"; Video: "Que rayos es la Metodología BEM explicado con un ejemplo | CSS" - Duración: 35:15](https://youtu.be/bvnzyXGkNY4 'Canal de YouTube: "FalconMasters"; Video: "Que rayos es la Metodología BEM explicado con un ejemplo | CSS" - Duración: 35:15')
 
 ## PARA QUÉ SIRVE
 
