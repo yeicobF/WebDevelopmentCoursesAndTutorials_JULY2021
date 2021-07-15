@@ -5,6 +5,9 @@ explican lo que es la metodología BEM.
 
 > FUENTE:
 > [Canal de YouTube: "FalconMasters"; Video: "Que rayos es la Metodología BEM explicado con un ejemplo | CSS" - Duración: 35:15](https://youtu.be/bvnzyXGkNY4 'Canal de YouTube: "FalconMasters"; Video: "Que rayos es la Metodología BEM explicado con un ejemplo | CSS" - Duración: 35:15')
+>
+> CÓDIGO INICIAL PARA EL PROYECTO:
+> [https://github.com/falconmasters/bem/tree/codigo_base](https://github.com/falconmasters/bem/tree/codigo_base "https://github.com/falconmasters/bem/tree/codigo_base")
 
 ## PARA QUÉ SIRVE
 
