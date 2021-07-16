@@ -25,6 +25,10 @@ a:hover {
   margin: 0 auto;
 }
 
+.contenedor__cards {
+  margin: 70px 0;
+}
+
 /* ---------- CLASES QUE NOSOTROS DEFINIMOS CON LA METODOLOGÍA BEM ---------- */
 .card {
   background: #fff;
@@ -96,9 +100,34 @@ Este es un enlace, no la imagen como tal.
   text-decoration: none;
 }
 
+.boton__texto {
+  font-weight: 600;
+}
+
 /* ------------------------------- MODIFICADOR ------------------------------ */
 .boton--absolute {
   position: absolute;
   right: 20px;
   bottom: -25px;
+}
+
+.boton--verde {
+  background: #7ba771;
+}
+
+.boton--verde:hover {
+  background: #437837;
+}
+
+.frase {
+  text-align: center;
+  margin: 70px 0;
+}
+
+.frase__texto {
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-style: italic;
 }

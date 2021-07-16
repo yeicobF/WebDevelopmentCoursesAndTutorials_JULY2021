@@ -18,7 +18,8 @@ reutilizar código.
 > agregar modificadores. Además de crear código más fácil de entender.
 
 Además, lo que se recomienda es no poner etiquetas con las clases al definir los
-elementos, es por eso que tienen que estar bien divididos.
+elementos, es por eso que tienen que estar bien divididos. Esto hará que no
+tengamos elementos "eesclavizados".
 
 Representa más trabajo porque todo tiene que ser manejado con clases, pero es
 muy útil para el nombramiento de clases la identificación de los elementos.
@@ -99,3 +100,10 @@ Hay 3 tipos de elementos:
 
   Si solamente se declarara el modificador, los estilos base no serían
   aplicados.
+
+  Además, se pueden poner tantos modificadores como quieras, logrando así, un
+  mejor control, más modularizado, de los elementos.
+
+  ```html
+  <a href="" class="boton boton--absolute boton--verde"></a>
+  ```
