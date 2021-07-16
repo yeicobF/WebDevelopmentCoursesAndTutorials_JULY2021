@@ -16,3 +16,33 @@ reutilizar código.
 
 > Permite crear componentes, moverlos de un proyecto a otro, reutilizarlos y
 > agregar modificadores. Además de crear código más fácil de entender.
+
+Además, lo que se recomienda es no poner etiquetas con las clases al definir los
+elementos, es por eso que tienen que estar bien divididos.
+
+Representa más trabajo porque todo tiene que ser manejado con clases, pero es
+muy útil para el nombramiento de clases la identificación de los elementos.
+
+## ELEMENTOS QUE SE MANEJAN EN BEM
+
+Hay 3 tipos de elementos:
+
+- **Bloques**
+
+  - Componentes de nuestro sitio que creemos que podemos reutilizar.
+  - Es como un componente.
+  - **Podemos poner bloques dentro de bloques.**
+
+    > ```css
+    > .bloque
+    > ```
+
+- **Elementos**
+
+  - Son elementos que forman parte de un bloque.
+
+    > ```css
+    > .bloque__elemento
+    > ```
+
+- **Modificadores**
