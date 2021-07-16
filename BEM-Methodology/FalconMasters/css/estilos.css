@@ -32,6 +32,61 @@ a:hover {
   padding: 20px;
   display: flex;
   align-items: center;
-	position: relative;
-	margin-bottom: 50px;
+  position: relative;
+  margin-bottom: 50px; /* Por si queremos tener dos cards. */
+}
+
+/*
+* Esto es como si hiciéramos: .card .card-thumbnail
+* 
+* - Evita escribir reglas CSS súper largas.
+Este es un enlace, no la imagen como tal.
+*/
+.card__thumbnail {
+  width: 650px;
+  height: 200px;
+  /* background: #000; */
+  margin-right: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  display: inline-block;
+}
+
+/* Imagen de la card. */
+.card__img {
+  width: 100%;
+}
+
+.card__titulo {
+  font-family: "Raleway", sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.card__enlace {
+  color: #000;
+}
+
+.card__extracto {
+  line-height: 28px;
+  color: #6d6d6d;
+  margin-bottom: 20px;
+}
+
+.boton {
+  border: none;
+  min-width: 180px;
+  height: 50px;
+  padding: 0 30px;
+  background: #000;
+  color: #fff;
+  display: inline-block;
+  border-radius: 100px;
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #403cc2;
+  transition: 0.3s ease all;
 }

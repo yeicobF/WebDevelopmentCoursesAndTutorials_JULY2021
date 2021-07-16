@@ -23,6 +23,22 @@ elementos, es por eso que tienen que estar bien divididos.
 Representa más trabajo porque todo tiene que ser manejado con clases, pero es
 muy útil para el nombramiento de clases la identificación de los elementos.
 
+> Nos ayuda a evitar que escribamos reglas CSS súper largas como:
+>
+> ```css
+> .card .card__thumbnail {
+> }
+> ```
+>
+> Esto lo podríamos escribir solo de la siguiente manera:
+>
+> ```css
+> .card__thumbnail {
+> }
+> ```
+>
+> **Y ya no tenemos que escribir tantas clases como en el primer método.**
+
 ## ELEMENTOS QUE SE MANEJAN EN BEM
 
 Hay 3 tipos de elementos:
