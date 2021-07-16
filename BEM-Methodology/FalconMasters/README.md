@@ -50,7 +50,11 @@ Hay 3 tipos de elementos:
   - **Podemos poner bloques dentro de bloques.**
 
     > ```css
-    > .bloque
+    > .bloque {
+    > }
+    >
+    > .card {
+    > }
     > ```
 
 - **Elementos**
@@ -58,7 +62,40 @@ Hay 3 tipos de elementos:
   - Son elementos que forman parte de un bloque.
 
     > ```css
-    > .bloque__elemento
+    > .bloque__elemento {
+    > }
+    >
+    > .card__extracto {
+    > }
     > ```
 
 - **Modificadores**
+
+  - Permiten modificar cómo se ve un elemento o un bloque sin afectar al
+    general.
+
+  > ```css
+  > .bloque--modificador {
+  > }
+  >
+  > .boton--absolute {
+  > }
+  > ```
+
+  Para utilizarlos hay que agregar tanto en bloque, como el modificador o los
+  modificadores, ya que si solo se agregan las clases con los modificadores, no
+  se apicarán los estilos base. Es por esta razón por la que hay que agregar las
+  clases base cuando se quieren agregar modificadores. Esto se puede ver en el
+  siguiente ejemplo:
+
+  ```html
+  <a href="" class="boton boton--absolute"></a>
+  ```
+
+  En el ejemplo mostrado anteriormente, se declara el bloque, `boton`, para
+  obtener los estilos base, y luego se declara la el modificador del bloque,
+  `boton--absolute`, el cual ya agrega los estilos que se destinan para la
+  modificación.
+
+  Si solamente se declarara el modificador, los estilos base no serían
+  aplicados.

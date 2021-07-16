@@ -90,3 +90,15 @@ Este es un enlace, no la imagen como tal.
   background: #403cc2;
   transition: 0.3s ease all;
 }
+
+.boton:hover {
+  background: #1b1881;
+  text-decoration: none;
+}
+
+/* ------------------------------- MODIFICADOR ------------------------------ */
+.boton--absolute {
+  position: absolute;
+  right: 20px;
+  bottom: -25px;
+}
